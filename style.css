@@ -97,6 +97,7 @@ li a:hover {
     background-color: #F2F2F2;
     margin-bottom:0;
     border:none;
+    text-align:center;
 
 }
 .container-1-header{
@@ -104,7 +105,8 @@ li a:hover {
     text-align:left;
     font-size:20px;
 }
-.container-1-text{
+.container-text{
+    text-align:left;
     font-size:14px;
     margin:0 20px 35px;
     margin-top:15px;
@@ -121,13 +123,30 @@ li a:hover {
 .container-2 div{
     width:555px;
 }
-.btn{
-    display:flex;
-    justify-content:center;
-    align-content: center;
+.btn-link{
     border-radius:5px;
-    font-size:15px;
-    padding:10px 30px;
+    padding: 10px 30px;
+    font-size:18px;
     margin:auto;
+    text-decoration: none;
+    color:white;
+    text-align: center;
 }
-
+#btn-green{
+    background-color:green;
+}
+#btn-blue{
+    background-color:#1686C1;
+}
+#btn-red{
+    background-color:#852406;
+}
+.services-header{
+    background-image:url("file:///E:/Projects/Website/conquer/img/bg-2.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:313px;
+    margin-bottom:500px;
+    margin-top:60px;
+    background-position-y: 8%;
+}
