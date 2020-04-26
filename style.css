@@ -80,13 +80,13 @@ li a:hover {
     text-shadow: 1px 1px #333;
     font-weight:500;
 }
-/* Styling for the first container(set of boxes)*/
-.container-1, .container-2{
+/* Styling for the first and second container(set of boxes)*/
+.container{
     display:flex;
     justify-content:center;
     flex-wrap: wrap;
 }
-.container-1 div, .container-2 div{
+.container div{
     border:1px #ccc solid;
     padding:0px;
     padding-bottom:40px;
@@ -100,28 +100,13 @@ li a:hover {
     text-align:center;
 
 }
-.container-1-header{
+.container-2 div{
+    width:555px;
+}
+.container-header{
     padding-left:20px;
     text-align:left;
     font-size:20px;
-}
-.container-text{
-    text-align:left;
-    font-size:14px;
-    margin:0 20px 35px;
-    margin-top:15px;
-}
-.container-1-header.green{
-    color:green;
-}
-.container-1-header.blue{
-    color:#1686C1;
-}
-.container-1-header.grey{
-    color:#666666;
-}
-.container-2 div{
-    width:555px;
 }
 .btn-link{
     border-radius:5px;
@@ -141,12 +126,70 @@ li a:hover {
 #btn-red{
     background-color:#852406;
 }
+.container-text{
+    text-align:left;
+    font-size:14px;
+    margin:0 20px 35px;
+    margin-top:15px;
+}
+.container-header.green{
+    color:green;
+}
+.container-header.blue{
+    color:#1686C1;
+}
+.container-header.grey{
+    color:#666666;
+}
+.container-2 h2{
+    text-align:center;
+}
+/*Services Styling*/
 .services-header{
+    display:flex;
+    justify-content: center;
     background-image:url("file:///E:/Projects/Website/conquer/img/bg-2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:313px;
-    margin-bottom:500px;
     margin-top:60px;
     background-position-y: 8%;
+}
+.services-header-text {
+    text-align:center;
+    width:1140px;
+    margin:65px 0px 85px;
+    color:white;
+}
+.services-header-text h1{
+    text-shadow: 2px 2px #aaa;
+    margin-bottom:20px;
+}
+.services-header-text p{
+    font-size: 20px;
+}
+.container-3 div{
+    width:260px;
+
+}
+.container-4 div{
+    text-align: left;
+    width:1140px;
+}
+h2{
+    font-size:20px;
+    font-weight:700;
+    color: #666666;
+}
+.contact{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    background-image:url("file:///E:/Projects/Website/conquer/img/bg-3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height:578px;
+    margin-top:60px;
+    margin-bottom: 269px;
+    background-position-y: 30%;
 }
