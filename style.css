@@ -181,10 +181,17 @@ h2{
     font-weight:700;
     color: #666666;
 }
+h1{
+    font-size:32px;
+    text-shadow: 2px 2px #aaa;
+    margin-bottom:20px;
+    color:white;
+}
 .contact{
     display:flex;
-    justify-content: center;
-    align-content: center;
+    justify-content:center;
+    align-content:center;
+    flex-wrap: wrap;
     background-image:url("file:///E:/Projects/Website/conquer/img/bg-3.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -192,4 +199,64 @@ h2{
     margin-top:60px;
     margin-bottom: 269px;
     background-position-y: 30%;
+}
+.contact-form{
+    display:flex;
+    width:720px;
+    height:355px;
+    justify-content:center;
+    align-content: center;
+    text-align:center;
+    flex-wrap: wrap;
+    box-sizing:border-box;
+}
+.contact-header{
+    width:720px;
+    height:213px;
+    margin-bottom:10px;
+    box-sizing:border-box;
+}
+.contact-text{
+    border-radius:5px;
+    padding: 10px 30px;
+    font-size:18px;
+    background-color: rgba(242, 242, 242, 0.4);
+}
+.form-content{
+    display:flex;
+    justify-content:left;
+    width:100%;
+    height:50%;
+    box-sizing:border-box;
+}
+.form-info {
+    width:50%;
+    height:100%
+}
+.form-info input{
+    border-radius: 5px;
+    width:340px;
+    margin:8px 0;
+    margin-right:15px;
+    margin-bottom:15px;
+    box-sizing:border-box;
+    height:34px;
+    padding:6px 12px;
+    background-color:rgba(242, 242, 242, 0.4);
+    border:none;
+}
+input {
+    display:block;
+}
+.message-area{
+    margin-top:8px;
+    margin-left:15px;
+    width:345px;
+}
+.message-text{
+    border-radius:5px;
+    height:132px;
+    width:345px;
+    background-color: rgba(242, 242, 242, 0.4);
+    box-sizing:border-box;
 }
