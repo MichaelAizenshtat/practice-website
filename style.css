@@ -70,11 +70,12 @@ li a:hover {
 #header{
     margin-top:0px;
     height:530px;
-    background-image:url("file:///E:/Projects/Website/conquer/img/bg-1.jpg");
+    background-image:url("file:///E:/Projects/Website/img/bg-1.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     background-position-y: 50%;
     display:table;
+    background-attachment: fixed;
     width:100%;
     height:650px;
 }
@@ -176,13 +177,14 @@ li a:hover {
 .services-header{
     display:flex;
     justify-content: center;
-    background-image:url("file:///E:/Projects/Website/conquer/img/bg-2.jpg");
+    background-image:url("file:///E:/Projects/Website/img/bg-2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:313px;
     margin-top:60px;
     background-position-y: 8%;
     box-sizing: border-box;
+    background-attachment: fixed;
 }
 .services-header-text {
     text-align:center;
@@ -217,13 +219,14 @@ h2{
     justify-content:center;
     align-content:center;
     flex-wrap: wrap;
-    background-image:url("file:///E:/Projects/Website/conquer/img/bg-3.jpg");
+    background-image:url("file:///E:/Projects/Website/img/bg-3.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:578px;
     margin-top:60px;
     background-position-y: 30%;
     box-sizing: border-box;
+    background-attachment:fixed;
 }
 .contact-form{
     display:flex;
