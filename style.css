@@ -21,7 +21,7 @@ img{
 #header{
     margin-top:0px;
     height:530px;
-    background-image:url("file:///E:/Projects/Website/img/bg-1.jpg");
+    background-image:url("img/bg-1.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     background-position-y: 50%;
@@ -128,7 +128,7 @@ img{
 .services-header{
     display:flex;
     justify-content: center;
-    background-image:url("file:///E:/Projects/Website/img/bg-2.jpg");
+    background-image:url("img/bg-2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:313px;
@@ -170,7 +170,7 @@ h2{
     justify-content:center;
     align-content:center;
     flex-wrap: wrap;
-    background-image:url("file:///E:/Projects/Website/img/bg-3.jpg");
+    background-image:url("img/bg-3.jpg");
     background-size:cover;
     background-repeat: no-repeat;
     height:578px;
@@ -319,7 +319,6 @@ input {
         width:400px;
         height:auto;
     }
-
 }
 
 
