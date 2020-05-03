@@ -11,5 +11,8 @@ function showMenu(){
         outerMenu.className = "menu";
     }
 }
+window.onload(function(){
+    document.querySelector('head').className = "";
+});
 
 

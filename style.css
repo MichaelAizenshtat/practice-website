@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+.preload *{
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+}
 html{
     font-family: "Open Sans", Helvetica, Arial, sans-serif!important;
     scroll-behavior: smooth;
