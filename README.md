@@ -21,6 +21,12 @@ A copy of a website that was made using Bootstrap, but without using Bootstrap.
 - Javascript
   - basics(loops, functions...)
   - DOM manipulation using events
+- Git
+  - creating local repositories
+  - making commits
+  - creating branches
+  - pushing to host repository
+  
 
 ## What Problems I Had
 One of the biggest problems I ran into was adding responsivity to the page. Media Queries presented
