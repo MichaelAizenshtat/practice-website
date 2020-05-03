@@ -3,23 +3,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="menu.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
         <title>Website Template</title>
-        <!--Start of Nav Bar-->
-        <nav class ="topnav" >
-            <ul>
-                <li class="link"><a href = "#header">HomePage</a></li>
-                <li class="link"><a href = "#about">About Us</a></li>
-                <li class="link"><a href = "#services">Services</a></li>
-                <li class="link"><a href = "#contact">Contact</a></li>
-                <li class="link"><a href = "javascript:void(0);" class="icon" >
-                        <i class="fa fa-bars "></i>
-                    </a>
-                </li>
-            </ul> 
-        </nav>
-        <!--End of NavBar-->
+        <!--Start of Menu-->
+            <div class = "menu-wrap">
+                <input type="checkbox" class = "toggler">
+                <div class="hamburger"><div></div></div>
+                <div class = "menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href = "#header">HomePage</a></li>
+                                <li><a href = "#about">About Us</a></li>
+                                <li><a href = "#services">Services</a></li>
+                                <li><a href = "#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--End of Menu-->
 
         <!--Start of Header-->
         <div id = "header">
@@ -200,6 +205,6 @@
             </div>
         </footer>
         <!--End of footer-->
-        <script src="main.js"></script><p>hello</p>
+        <script src="main.js"></script>
     </body>
 </html>

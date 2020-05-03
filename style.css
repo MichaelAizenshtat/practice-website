@@ -17,55 +17,6 @@ img{
     max-height:100%;
     display:block;
 } 
-
-/*Styling for the navigation bar */
-.topnav  {
-    display:flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    background-color: #383E4C;
-    overflow: hidden;
-    justify-content: center;
-    height:auto;
-    position:fixed;
-    width:100%
-}
-.topnav ul{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top:10px;
-    margin-bottom: 10px;
-    margin-right:10px;
-    margin-left:10px;
-    padding:0;
-    width:auto;
-}
-
-.topnav li{
-    display:inline-block;
-    margin-left:10px;
-}
-
-.topnav li a{
-    display: block;
-    color: white;
-    padding: 15px 25px;
-    text-decoration: none;
-    border: 1px solid #646d7c;
-    font-size:20px;
-    line-height:20px;
-
-}
-li a:hover {
-    background-color: #111
-}
-.topnav .icon{
-    display:none;
-    background-color:#383E4C;
-    margin:10px;
-}
-
-
 /*Stylying for the header*/
 #header{
     margin-top:0px;
@@ -357,55 +308,20 @@ input {
     }
 }
 @media (max-width:700px){
-    .topnav a:not(.icon){
-        display:none;
-    }
-    .topnav .icon{
-        display:block;
-    }
-    .topnav li{
-        margin:0;
-    }
-    .topnav{
-        justify-content:flex-end;
-        background:none;
-    }
-}
-@media (max-width:700px){
-    .topnav.responsive a{
-        display:block;
-    }
-    .topnav.responsive ul{
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        margin:0;
-    }
-    .topnav.responsive li:not(:last-child){
-        background-color:#383E4C;
-        margin-top:0;
-    }
-    .topnav .icon{
-        width:69px;
+    input[type="text"]{
+        width:200px;
         margin-left:auto;
     }
+    .message-area{
+        width:200px;
+    }
+    .contact-header{
+        width:400px;
+        height:auto;
+    }
 
-    .link:nth-of-type(1){
-        order:2;
-    }
-    .link:nth-of-type(2){
-        order:3;
-    }
-    .link:nth-of-type(3){
-        order:4;
-    }
-    .link:nth-of-type(4){
-        order:5;
-    }
-    .link:nth-of-type(5){
-        order:1;
-    }
 }
+
 
 
 
